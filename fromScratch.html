@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography</title>
+    <link rel="stylesheet" href="css/myStyles.css">
+</head>
+<body>
+    <div class="nav-container" id="top">
+        <a href="index.html">Back to Resume</a>
+        <a href="ai.html">Web App</a>
+    </div>
+
+    <div class="header-box">
+        <h1>
+            Views Through My Lens
+        </h1>
+    <p>A look at my photography.</p>
+    <a href="#tableau-viz" class="jump-link">Travel Data</a>
+    </div>
+
+    <div class="main-content">
+        <h2>Favorite Places to Photograph</h2>
+        
+        <ol>
+            <li><strong>Near Provo</strong>
+                <ul>
+                    <li>Utah Lake</li>
+                    <li>Timpanogas</li>
+                    <li>Provo Canyon</li>
+                </ul>
+            </li>
+            <li><strong>Around the World</strong>
+                <ul>
+                    <li>Chamonix, France</li>
+                    <li>Ouray, CO</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>My Camera</h2>
+        <p>The Sony a6400</p>
+        
+        <img src="assets/img/Sony-a6400-home.jpg" width="555"
+             alt="A camera on a wooden table" 
+             class="hobby-image">
+
+        <h2>Video Inspiration</h2>
+        <div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6FJ-kY7TNA0?si=T8RUP70xEGwXg008" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+<h2 id="tableau-viz">Photography & Travel Trends</h2>
+<p>Interactive data visualization regarding global travel patterns.</p>
+
+<div class="tableau-container">
+    <div class='tableauPlaceholder' id='viz1776619430184' style='position: relative'>
+        <noscript>
+            <a href='#'><img alt='History of modern photography ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;Thehistoryofmodernphotography&#47;Historyofmodernphotography&#47;1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='Thehistoryofmodernphotography&#47;Historyofmodernphotography' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;Thehistoryofmodernphotography&#47;Historyofmodernphotography&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>                
+    <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1776619430184');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        
+        // This ensures it fills your CSS container perfectly
+        vizElement.style.width='100%';
+        vizElement.style.height='800px'; 
+        
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+</div>
+
+<p style="text-align: center; margin-top: 50px;"><a href="#top">Back to top</a></p>
+
+    </div>
+
+</body>
+</html>
